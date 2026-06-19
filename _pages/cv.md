@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-This page is based on the transcribed CV in `CV.txt`. When a current PDF is added as `CV_Eng.pdf`, this line can be replaced with a download link.
-
 Summary
 ======
 
