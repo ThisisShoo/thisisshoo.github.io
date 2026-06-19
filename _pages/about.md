@@ -9,7 +9,7 @@ redirect_from:
 
 I am an aerospace engineering M.Eng. graduate from the University of Toronto Institute for Aerospace Studies, with a background in physics, astronomy, and computational modeling.
 
-My work sits where first-principles analysis meets software: orbital mechanics, nonlinear dynamical systems, space-domain awareness, high-volume data workflows, and simulation tools that make complex technical decisions easier to inspect and verify.
+My work sits where first-principles analysis meets software: orbital mechanics, nonlinear dynamical systems, space-domain awareness, high-volume data processing and analysis, and simulation tools that make complex technical decisions easier to inspect and verify.
 
 Recent work includes a large data-enabled study on temporarily bound objects and mission-viable asteroids, automated stellar data retrieval and cataloging for machine-learning ingestion, deterministic polarized-neutron image simulation, and hyperspectral image-correction work for the FINCH microsatellite mission.
 
