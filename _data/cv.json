@@ -1,152 +1,117 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Shuhan Zheng",
+    "email": "shuhan.zheng@outlook.com",
+    "phone": "+1 438-495-6697",
+    "website": "https://thisisshoo.github.io",
+    "summary": "Aerospace M.Eng. graduate from the University of Toronto with experience in first-principles analysis, physics-aware software, nonlinear dynamical systems, intensive computation, data-driven workflows, electronics, prototyping, and systems-level analysis.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Toronto",
+      "countryCode": "CA"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ThisisShoo",
+        "url": "https://github.com/ThisisShoo"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "shuhan-zheng-439774192",
+        "url": "https://www.linkedin.com/in/shuhan-zheng-439774192/"
       }
     ]
   },
-  "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "University of Toronto Institute for Aerospace Studies",
+      "area": "Aerospace Engineering",
+      "studyType": "M.Eng.",
+      "startDate": "2024",
+      "endDate": "2026",
+      "courses": [
+        "Spacecraft Dynamics and Control",
+        "Control Theory",
+        "Computational Fluid Dynamics",
+        "Project Management",
+        "Operations Management"
+      ]
+    },
+    {
+      "institution": "University of Toronto",
+      "area": "Physics and Astronomy & Astrophysics",
+      "studyType": "Honours B.Sc.",
+      "startDate": "2020",
+      "endDate": "2024",
+      "courses": [
+        "Computational Physics",
+        "Time Series Analysis",
+        "Electromagnetic Theory",
+        "Electronics Lab",
+        "Optics"
+      ]
+    },
+    {
+      "institution": "Marianopolis College",
+      "area": "Pure and Applied Science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "startDate": "2018",
+      "endDate": "2020",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
+  "work": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "University of Toronto Institute for Aerospace Studies",
+      "position": "Research Assistant / Supervised Research Project",
+      "startDate": "Spring 2024",
+      "endDate": "Present",
+      "summary": "Large data-enabled space-domain awareness research on temporarily bound objects and mission-viable asteroids.",
+      "highlights": [
+        "First-author AMOS 2026 abstract accepted: Dichotomizing Temporarily Bound Objects Using Capture States.",
+        "Used statistical modeling and probabilistic neural networks to support rapid, early detection of mission-viable asteroids."
+      ]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "University of Toronto Near Field Cosmology Group",
+      "position": "Research Assistant",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Automated stellar data retrieval, sanitizing, cataloging, and preparation for machine-learning ingestion.",
+      "highlights": [
+        "Built a turnkey portable data pipeline adopted by the group.",
+        "Resulting databases support subsequent publications."
+      ]
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "China Spallation Neutron Source, Chinese Academy of Sciences",
+      "position": "Research Assistant Intern",
+      "startDate": "Summer 2023",
+      "endDate": "Summer 2023",
+      "summary": "Developed deterministic simulation software for polarized-neutron imaging of magnetized samples.",
+      "highlights": [
+        "Reduced computational time from days to hours compared with conventional Monte Carlo methods."
+      ]
     }
   ],
-  "presentations": [
+  "projects": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "AMAT - Agentic Mission Analysis Toolbox",
+      "summary": "Independent AI-assisted mission analysis toolbox for converting user intent into mission-ready spacecraft flight plans with interactive visualization and human-in-the-loop verification."
     }
   ],
-  "teaching": [
+  "skills": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "name": "Programming and Analysis",
+      "keywords": ["Python", "MATLAB", "LaTeX", "data analysis", "simulation", "optimization", "object-oriented programming"]
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
+      "name": "Aerospace and Simulation Tools",
+      "keywords": ["GMAT", "STK", "COMSOL Multiphysics", "SolidWorks", "CFD"]
+    },
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Technical Strengths",
+      "keywords": ["computational modeling", "orbital mechanics", "Monte Carlo simulation", "uncertainty propagation", "data visualization", "multi-physics simulation"]
     }
   ]
 }

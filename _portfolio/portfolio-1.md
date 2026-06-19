@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "AMAT - Agentic Mission Analysis Toolbox"
+excerpt: "An AI-assisted mission analysis toolbox for converting user intent into mission-ready spacecraft flight plans."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+AMAT is an independent software project for reliable application of AI in spaceflight mission design.
+
+The goal is an end-to-end workflow that can translate user intent into real spacecraft flight plans, while preserving interactive visualization for human-in-the-loop verification and validation. The project is intended to support a range of mission classes, from LEO to cislunar trajectories and beyond.

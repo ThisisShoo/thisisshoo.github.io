@@ -1,18 +1,10 @@
-# Authors
+# Optional per-page author overrides. Most pages use the main author block in
+# _config.yml. Add entries here only if a future page needs a different author.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Shuhan Zheng:
+  name        : "Shuhan Zheng"
+  email       : "shuhan.zheng@outlook.com"
+  bio         : "Aerospace M.Eng. graduate building physics-aware software for mission analysis, space-domain awareness, and computational modeling."
+  avatar      : "profile.png"
+  github      : "ThisisShoo"
+  linkedin    : "shuhan-zheng-439774192"

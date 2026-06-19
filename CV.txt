@@ -1,0 +1,71 @@
+Shuhan Zheng
+
+University of Toronto Institute for Aerospace Studies (UTIAS)
+shuhan.zheng@outlook.com — (+1) 438-495-6697 — github.com/ThisisShoo —
+https://www.linkedin.com/in/shuhan-zheng-439774192/
+
+Summary
+
+M.Eng graduate from the University of Toronto. Demonstrated strong experience in streamlining complex analytical problem solutions via approaches grounded in first principles. I bring expertise in physics-aware software development, especially those pertaining to nonlinear behaviors in dynamical systems, or those that require intensive computation. Multidisciplinary engineering, large data-driven functions, and complex cross-system work are also in my forte. Supplementary skills in electronics, mechanical prototyping, and systems-level analysis.
+
+Education
+
+University of Toronto Institute for Aerospace Studies (UTIAS) 2024–2026
+M.Eng. in Aerospace Engineering
+Coursework: Spacecraft Dynamics and Control, Control Theory, Computational Fluid Dynamics, Project Management, Operations Management, etc.
+
+University of Toronto 2020–2024
+Honours B.Sc. in Physics and Astronomy & Astrophysics
+Relevant coursework: Computational Physics, Time Series Analysis, Electromagnetic Theory, Electronics Lab, Optics, etc.
+
+Marianopolis College 2018–2020
+Pure and Applied Science
+
+Experience
+
+Research Assistant / Supervised Research Project Spring 2024–Present
+University of Toronto Institute for Aerospace Studies
+• Abstract accepted by AMOS 2026 as first author: Dichotomizing Temporarily Bound Objects Using Capture States.
+• Large data-enabled Space Domain Awareness study powered by techniques such as statistical modeling and probabilistic neural networks, enabling rapid and early detection of mission-viable asteroids.
+
+Research Assistant 2023–2024
+University of Toronto, Near Field Cosmology Group
+• Built a turnkey solution for automatic retrieval, sanitizing, and cataloging of stellar data, with a portable interface for machine-learning model ingestion.
+• Project adopted by the Near Field Cosmology Group; the resulting databases supports subsequent publications.
+
+Research Assistant Intern Summer 2023
+China Spallation Neutron Source, Chinese Academy of Sciences
+• Independently developed a Python-based deterministic simulation tool for generating synthetic polarized-neutron images of magnetized samples.
+• Computational time reduced from days to hours compared to conventional Monte Carlo methods.
+
+Space Systems Member 2021–2023
+University of Toronto Aerospace Team
+• Implemented and tested image-correction algorithms for hyperspectral remote-sensing data in collaboration with the optics team. The algorithms will support the upcoming FINCH microsatellite mission.
+• Co-authored team design papers for the 2022 and 2023 Small Satellite Conferences as a member of the FINCH mission team.
+
+Vice-President, Internal and External Affairs 2023–2024
+University of Toronto Physics Student Union
+• Managed the organization, logistics, and coordination of outreach, fundraising, social, and academic events.
+• Acted as a liaison between faculty and students.
+
+OPS & Safety Operator 2026
+Launch Canada
+• Responsible for assisting the launch OPS and Safety team, enforcing launch pad clearance and compliance to launch safety regulations.
+
+Projects
+
+AMAT - Agentic Mission Analysis Toolbox
+Independent Software Project (Link: GitHub)
+• AI harness and toolbox for reliable application in spaceflight mission design.
+• End-to-end solution to convert user intent into real, mission-ready spacecraft flight plans, with interactive visualization capabilities for human-in-the-loop verification and validation.
+• Compatible with a range of missions, from LEO to cis-lunar and beyond.
+
+Skills
+
+Programming and Analysis: Python, MATLAB, LaTeX, data analysis, simulation, optimization, object-oriented programming
+
+Aerospace and Simulation Tools: GMAT, STK, COMSOL Multiphysics, SolidWorks, CFD
+
+Technical Strengths: Computational modeling, orbital mechanics, Monte Carlo simulation, uncertainty propagation, data visualization, multi-physics simulation
+
+Professional Skills: Technical writing, scientific communication, scientific software, interdisciplinary collaboration, project coordination, event organization.
