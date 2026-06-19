@@ -20,17 +20,35 @@ permalink: /portfolio/amat/
 <p><a href="/projects/amat/" class="btn">Open full-screen viewer</a></p>
 
 <p class="amat-notes">
-  If you liked this project, please star my project on [GitHub](https://github.com/ThisisShoo/AMAT)!
+  <span class="amat-highlight">If you liked this project, please give <a href="https://github.com/ThisisShoo/AMAT">my project on GitHub</a> a star!</span> <br><br>
 
-  AMAT render of a spacecraft maneuvering from LEO to GEO. Use the drop-down menu on the top left to select refernce frame. The EarthFixed reference frame also includes ground track drawn on the surface of Earth. <br>
+  Shown here is an AMAT render of a spacecraft maneuvering from LEO to GEO. Use the drop-down menu on the top left to select refernce frame. The EarthFixed reference frame also includes ground track drawn on the surface of Earth. <br><br>
 
-  Hover mouse over number to see the mission checkpoints: <br>
-  1. initial_state - The start of simulation. <br>
-  2. post_initial_coast - TargetSat completes a few revolutions. After this point, the targeter starts looking for a burn window to execute GTO insertion. In this case, the best timing is at the initial orbit's intersection with the equatorial plane. <br>
-  3. post_transfer_injection - TargetSat finishes the impulse burn for GTO insertion. Since it's more economical to make plane changes at higher altitudes, this burn is tangential-only. <br>
-  4. post_orbit_insertion - TargetSat finishes the burn to circularize the orbit. It concurrently completes the plane change. <br>
-  5. final_state_checkpoint - TargetSat completes a few refolutions in the target GEO. At this point, ground track in EarthFixed frame largely remains static over the same ground location, as expected for GEO spacecrafts. 
+  Hover mouse over number to see the mission checkpoints:
 </p>
+
+<ol class="amat-checkpoints">
+  <li>
+    <strong>initial_state</strong>
+    <div>The start of simulation.</div>
+  </li>
+  <li>
+    <strong>post_initial_coast</strong>
+    <div>TargetSat completes a few revolutions. After this point, the targeter starts looking for a burn window to execute GTO insertion. In this case, the best timing is at the initial orbit's intersection with the equatorial plane.</div>
+  </li>
+  <li>
+    <strong>post_transfer_injection</strong>
+    <div>TargetSat finishes the impulse burn for GTO insertion. Since it's more economical to make plane changes at higher altitudes, this burn is tangential-only.</div>
+  </li>
+  <li>
+    <strong>post_orbit_insertion</strong>
+    <div>TargetSat finishes the burn to circularize the orbit. It concurrently completes the plane change.</div>
+  </li>
+  <li>
+    <strong>final_state_checkpoint</strong>
+    <div>TargetSat completes a few refolutions in the target GEO. At this point, ground track in EarthFixed frame largely remains static over the same ground location, as expected for GEO spacecrafts.</div>
+  </li>
+</ol>
 
 <style>
   .amat-viewer-frame {
@@ -51,5 +69,27 @@ permalink: /portfolio/amat/
 
   .amat-notes {
     max-width: 900px;
+  }
+
+  .amat-checkpoints {
+    max-width: 900px;
+    margin-top: 0;
+  }
+
+  .amat-checkpoints li {
+    margin-bottom: 0.75rem;
+  }
+
+  .amat-checkpoints li div {
+    margin-left: 1.25rem;
+    margin-top: 0.15rem;
+  }
+
+  .amat-highlight {
+    display: inline-block;
+    padding: 0.4rem 0.6rem;
+    border-left: 4px solid #2f81f7;
+    background: rgba(47, 129, 247, 0.12);
+    font-weight: 600;
   }
 </style>
