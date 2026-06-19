@@ -20,6 +20,8 @@ permalink: /portfolio/amat/
 <p><a href="/projects/amat/" class="btn">Open full-screen viewer</a></p>
 
 <p class="amat-notes">
+  If you liked this project, please star my project on [GitHub](https://github.com/ThisisShoo/AMAT)!
+
   AMAT render of a spacecraft maneuvering from LEO to GEO. Use the drop-down menu on the top left to select refernce frame. The EarthFixed reference frame also includes ground track drawn on the surface of Earth. <br>
 
   Hover mouse over number to see the mission checkpoints: <br>
