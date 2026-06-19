@@ -8,6 +8,7 @@
 html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #000; color: #e5e7eb; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 #viewer { position: fixed; inset: 0; background: #000; }
 #canvas { display: block; width: 100%; height: 100%; }
+:fullscreen #viewer { width: 100vw; height: 100vh; }
 .toolbar { position: fixed; top: 12px; left: 12px; right: 12px; z-index: 20; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; pointer-events: none; }
 .toolbar > * { pointer-events: auto; }
 button, select { height: 32px; border: 1px solid #334155; border-radius: 6px; background: rgba(15, 23, 42, 0.92); color: #f8fafc; padding: 0 10px; font-size: 13px; }
@@ -639,8 +640,10 @@ function initViewer() {
   }
 
   function resize() {
-    const w = window.innerWidth;
-    const h = window.innerHeight;
+    const fullscreenElement = document.fullscreenElement;
+    const rect = fullscreenElement ? fullscreenElement.getBoundingClientRect() : null;
+    const w = Math.max(1, Math.round(rect?.width || window.innerWidth));
+    const h = Math.max(1, Math.round(rect?.height || window.innerHeight));
     renderer.setSize(w, h, false);
     camera.aspect = w / Math.max(1, h);
     camera.updateProjectionMatrix();
@@ -797,7 +800,7 @@ function initViewer() {
   });
   document.getElementById('home').addEventListener('click', resetCamera);
   document.getElementById('fullscreen').addEventListener('click', async () => {
-    const target = document.getElementById('viewer');
+    const target = document.documentElement;
     try {
       if (!document.fullscreenElement) {
         await (target.requestFullscreen ? target.requestFullscreen() : document.documentElement.requestFullscreen());
@@ -805,10 +808,17 @@ function initViewer() {
         await document.exitFullscreen();
       }
     } finally {
+      lastStep = performance.now();
+      resize();
       setTimeout(resize, 60);
+      setTimeout(resize, 250);
     }
   });
-  document.addEventListener('fullscreenchange', resize);
+  document.addEventListener('fullscreenchange', () => {
+    lastStep = performance.now();
+    resize();
+    setTimeout(resize, 120);
+  });
   window.addEventListener('resize', resize);
 
   let lastStep = performance.now();
