@@ -190,6 +190,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - _portfolio/amat/index.html
   - tmp
   - vendor
 keep_files:
