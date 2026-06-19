@@ -27,4 +27,4 @@ Research Interests
 Current Project
 ======
 
-**AMAT - Agentic Mission Analysis Toolbox** is my independent software project for reliable AI-assisted spaceflight mission design. It aims to convert user intent into mission-ready spacecraft flight plans, with interactive visualization for human-in-the-loop verification and validation.
+**AMAT - Agentic Mission Analysis Toolbox** is my independent software project for reliable AI-orchestrated spaceflight mission design. It converts user intent into mission-ready spacecraft flight plans, with interactive visualization for human-in-the-loop verification and validation.
