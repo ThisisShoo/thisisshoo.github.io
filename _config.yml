@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Shuhan Zheng"
 title_separator          : "-"
 name                     : &name "Shuhan Zheng"
-description              : &description "Aerospace engineer and physics-trained software developer focused on mission analysis, dynamical systems, and computational modeling."
+description              : &description "Aerospace engineer and physics-trained software developer focused on mission analysis, space-domain awareness, dynamical systems, and computational modeling."
 url                      : https://thisisshoo.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "shuhan-z-439774192"
+  linkedin         : "shuhan-zheng-439774192"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

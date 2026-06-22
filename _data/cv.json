@@ -4,7 +4,7 @@
     "email": "shuhan_zheng@outlook.com",
     "phone": "+1 438-495-6697",
     "website": "https://thisisshoo.github.io",
-    "summary": "Aerospace M.Eng. graduate from the University of Toronto with experience in first-principles analysis, physics-aware software, nonlinear dynamical systems, intensive computation, data-driven workflows, electronics, prototyping, and systems-level analysis.",
+    "summary": "M.Eng. graduate from the University of Toronto with experience streamlining complex analytical problem solutions through first-principles approaches, physics-aware software development, nonlinear dynamical systems, computation-intensive problems, multidisciplinary engineering, data-driven work, electronics, mechanical prototyping, and systems-level analysis.",
     "location": {
       "city": "Toronto",
       "countryCode": "CA"
@@ -17,8 +17,8 @@
       },
       {
         "network": "LinkedIn",
-        "username": "shuhan-z-439774192",
-        "url": "https://www.linkedin.com/in/shuhan-z-439774192/"
+        "username": "shuhan-zheng-439774192",
+        "url": "https://www.linkedin.com/in/shuhan-zheng-439774192/"
       }
     ]
   },
@@ -40,78 +40,137 @@
     {
       "institution": "University of Toronto",
       "area": "Physics and Astronomy & Astrophysics",
-      "studyType": "Honours B.Sc.",
+      "studyType": "Honours B.Sc. with double majors",
       "startDate": "2020",
       "endDate": "2024",
-      "courses": [
-        "Computational Physics",
-        "Time Series Analysis",
-        "Electromagnetic Theory",
-        "Electronics Lab",
-        "Optics"
-      ]
-    },
-    {
-      "institution": "Marianopolis College",
-      "area": "Pure and Applied Science",
-      "studyType": "",
-      "startDate": "2018",
-      "endDate": "2020",
       "courses": []
     }
   ],
   "work": [
     {
-      "name": "University of Toronto Institute for Aerospace Studies",
+      "company": "University of Toronto Institute for Aerospace Studies, Aerospace Mechatronics Lab",
       "position": "Research Assistant / Supervised Research Project",
       "startDate": "Spring 2024",
       "endDate": "Present",
       "summary": "Large data-enabled space-domain awareness research on temporarily bound objects and mission-viable asteroids.",
       "highlights": [
-        "First-author AMOS 2026 abstract accepted: Dichotomizing Temporarily Bound Objects Using Capture States.",
-        "Used statistical modeling and probabilistic neural networks to support rapid, early detection of mission-viable asteroids."
+        "Abstract accepted by AMOS 2026 as first author: Dichotomizing Temporarily Bound Objects Using Capture States.",
+        "Used statistical modeling and probabilistic neural networks to enable rapid and early detection of mission-viable asteroids."
       ]
     },
     {
-      "name": "University of Toronto Near Field Cosmology Group",
+      "company": "University of Toronto Near Field Cosmology Group",
       "position": "Research Assistant",
       "startDate": "2023",
       "endDate": "2024",
       "summary": "Automated stellar data retrieval, sanitizing, cataloging, and preparation for machine-learning ingestion.",
       "highlights": [
-        "Built a turnkey portable data pipeline adopted by the group.",
-        "Resulting databases support subsequent publications."
+        "Built a turnkey solution with a portable interface for machine-learning model ingestion.",
+        "Project adopted by the Near Field Cosmology Group; the resulting databases support subsequent publications."
       ]
     },
     {
-      "name": "China Spallation Neutron Source, Chinese Academy of Sciences",
+      "company": "China Spallation Neutron Source, Chinese Academy of Sciences",
       "position": "Research Assistant Intern",
       "startDate": "Summer 2023",
       "endDate": "Summer 2023",
       "summary": "Developed deterministic simulation software for polarized-neutron imaging of magnetized samples.",
       "highlights": [
+        "Independently developed a Python-based deterministic simulation tool for generating synthetic polarized-neutron images of magnetized samples.",
         "Reduced computational time from days to hours compared with conventional Monte Carlo methods."
+      ]
+    },
+    {
+      "company": "University of Toronto Aerospace Team",
+      "position": "Space Systems Member",
+      "startDate": "2021",
+      "endDate": "2023",
+      "summary": "Space systems work for the FINCH microsatellite mission.",
+      "highlights": [
+        "Implemented and tested image-correction algorithms for hyperspectral remote-sensing data in collaboration with the optics team.",
+        "Co-authored team design papers for the 2022 and 2023 Small Satellite Conferences as a member of the FINCH mission team."
+      ]
+    },
+    {
+      "company": "University of Toronto Physics Student Union",
+      "position": "Vice-President, Internal and External Affairs",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Student organization leadership and coordination.",
+      "highlights": [
+        "Managed the organization, logistics, and coordination of outreach, fundraising, social, and academic events.",
+        "Acted as a liaison between faculty and students."
+      ]
+    },
+    {
+      "company": "Launch Canada",
+      "position": "OPS & Safety Operator",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "Launch operations and safety support.",
+      "highlights": [
+        "Assisted the launch OPS and Safety team by enforcing launch pad clearance and compliance with launch safety regulations."
       ]
     }
   ],
-  "projects": [
+  "portfolio": [
     {
       "name": "AMAT - Agentic Mission Analysis Toolbox",
-      "summary": "Independent AI-assisted mission analysis toolbox for converting user intent into mission-ready spacecraft flight plans with interactive visualization and human-in-the-loop verification."
+      "category": "Independent Software Project",
+      "url": "https://github.com/ThisisShoo/AMAT",
+      "summary": "AI harness and toolbox for reliable application in spaceflight mission design, converting user intent into mission-ready spacecraft flight plans with interactive visualization for human-in-the-loop verification and validation."
+    },
+    {
+      "name": "GMAT Automation for Asteroid Trajectory Prediction",
+      "category": "Astrodynamics Course Project",
+      "url": "https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator",
+      "summary": "Monte Carlo simulation of real asteroid trajectories for prediction of future Earth encounters with uncertainties; predictions verified against published journal literature."
+    },
+    {
+      "name": "Catalog Acquisition and Compilation Tool (CACT)",
+      "category": "Astronomy Capstone Project",
+      "url": "https://github.com/ThisisShoo/Catalog-Maker/tree/main__with_Simbad",
+      "summary": "Autonomous data retrieval, sanitizing, and management pipeline with user interface API for hierarchical and relational scientific data."
+    },
+    {
+      "name": "Polarization-modulated Optical Communication Demonstrator",
+      "category": "Electronics Course Project",
+      "summary": "Designed and built a prototype for serial transmission of binary information via laser link."
+    }
+  ],
+  "publications": [
+    {
+      "name": "FINCH: A Blueprint for Accessible and Scientifically Valuable Remote Sensing Satellite Missions",
+      "publisher": "Small Satellite Conference",
+      "releaseDate": "2022",
+      "website": "https://digitalcommons.usu.edu/smallsat/2022/all2022/88/",
+      "summary": "Miles, A., Maranto, D., Xu, S., et al., Zheng, S., et al. Weekend Session 7: Science/Mission Payloads - Research & Academia II, Utah State University, Logan, UT."
+    },
+    {
+      "name": "Beyond the Visible: Jointly Attending to Spectral and Spatial Dimensions with HSI-Diffusion for the FINCH Spacecraft",
+      "publisher": "Small Satellite Conference",
+      "releaseDate": "2024",
+      "website": "https://digitalcommons.usu.edu/smallsat/2024/all2024/121/",
+      "summary": "Vyse, I., Dagli, R., Chadha, D. V., Ma, J. P., Chen, H., et al., Zheng, S., & Nguyen, K. Session X: Ground Systems, Utah State University, Logan, UT."
     }
   ],
   "skills": [
     {
       "name": "Programming and Analysis",
-      "keywords": ["Python", "MATLAB", "LaTeX", "data analysis", "simulation", "optimization", "object-oriented programming"]
+      "keywords": [
+        "MATLAB",
+        "LaTeX"
+      ]
     },
     {
       "name": "Aerospace and Simulation Tools",
-      "keywords": ["GMAT", "STK", "COMSOL Multiphysics", "SolidWorks", "CFD"]
-    },
-    {
-      "name": "Technical Strengths",
-      "keywords": ["computational modeling", "orbital mechanics", "Monte Carlo simulation", "uncertainty propagation", "data visualization", "multi-physics simulation"]
+      "keywords": [
+        "GMAT",
+        "STK",
+        "COMSOL Multiphysics",
+        "SolidWorks",
+        "CFD"
+      ]
     }
   ]
 }
