@@ -32,7 +32,6 @@ Research Interests
 * Orbital mechanics and dynamical systems
 * Space-domain awareness and space situational awareness
 * Physics-aware scientific software
-* Data-driven modeling, uncertainty propagation, and visualization
 
 Current Project
 ======
