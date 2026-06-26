@@ -1,7 +1,10 @@
 ---
 title: "AMAT - Agentic Mission Analysis Toolbox"
 excerpt: |-
-  A modular and backend-neutral architecture for AI-orchestrated spaceflight mission design and analysis. The demonstration here is a mission from Low Earth Orbit (LEO) to Geosynchronous Earth Orbit (GEO). The in-house developed targeter autonomously computes the most fuel-efficient flight plan from an inclined LEO to an equatorial GEO. The flight path is propagated using NASA's General Mission Analysis Tool (GMAT) as the simulation backend, then rendered as an interactive 3D scene.<br>
+  AMAT is a modular software platform with swappable backend physics engines and astrodynamics libraries, for deterministic spacecraft mission analysis and flight planning. Supports GMAT, SPICE, Orekit, and more. It is architecturally designed to interface with both humans and AI orchestrators, empowering mission analysis through a single natural language prompt. <br>
+  
+  The demonstration here is a mission from Low Earth Orbit (LEO) to Geosynchronous Earth Orbit (GEO). Mission specifications were communicated to an AI coding assistant, which generated the mission specification sheets, and executed the full pipeline without human intervention or making guesses. The in-house developed targeter autonomously computed the most fuel-efficient flight plan from an inclined LEO to an equatorial GEO using impulse burns. The flight path is propagated using NASA's General Mission Analysis Tool (GMAT) as the simulation backend, then rendered as an interactive 3D scene. <br>
+
   Follow the project development on GitHub: [https://github.com/ThisisShoo/AMAT](https://github.com/ThisisShoo/AMAT)
 collection: portfolio
 layout: single

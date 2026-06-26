@@ -29,6 +29,8 @@ This study was validated against published encounter predictions for real tempor
 
 The simulated encounter windows and geocentric-distance trends can be compared against the literature values to check whether the automated GMAT/Monte Carlo workflow reproduces the expected capture or close-approach behavior.
 
+Project repository: [https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator](https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator)
+
 <style>
   .project-highlight {
     display: inline-block;

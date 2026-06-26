@@ -28,6 +28,8 @@ Project Outcome
 
 After being accepted by the capstone project reviewers, this project was adopted by the University of Toronto Near Field Cosmology Group for internal research use. 
 
+Project repository: [https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator](https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator)
+
 <style>
   .project-highlight {
     display: inline-block;
