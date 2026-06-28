@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Download my CV as a PDF](/CV_Eng.pdf)
+[Download my CV as a PDF](/files/CV_Eng.pdf)
 
 Summary
 ======

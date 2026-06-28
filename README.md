@@ -12,7 +12,7 @@ Common updates:
 
 * Edit `_pages/about.md` for the home page.
 * Edit `_pages/cv.md` for the web CV.
-* Add or replace `CV_Eng.pdf` in the repo root when a downloadable CV should be published.
+* Add or replace `files/CV_Eng.pdf` when a downloadable CV should be published.
 * Add project pages under `_portfolio/`.
 * Edit `_data/navigation.yml` to change the header menu.
 * Edit `_config.yml` for sidebar contact details and site metadata.
