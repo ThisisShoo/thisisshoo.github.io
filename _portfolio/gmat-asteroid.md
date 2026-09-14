@@ -5,6 +5,7 @@ excerpt: |-
   Project repository: [https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator](https://github.com/ThisisShoo/GMAT-Monte-Carlo-Propagator)
 collection: portfolio
 layout: single
+order: 3
 # permalink: /portfolio/gmat-asteroid/
 ---
 

@@ -8,6 +8,7 @@ excerpt: |-
   Follow the project development on GitHub: [https://github.com/ThisisShoo/AMAT](https://github.com/ThisisShoo/AMAT)
 collection: portfolio
 layout: single
+order: 2
 permalink: /portfolio/amat/
 ---
 

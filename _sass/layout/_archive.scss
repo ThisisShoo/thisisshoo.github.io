@@ -66,6 +66,19 @@
   }
 }
 
+.archive__item-preview {
+  display: block;
+  margin: 0.75em 0 1em;
+  border: 1px solid var(--global-border-color);
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
