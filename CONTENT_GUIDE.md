@@ -14,9 +14,9 @@ Edit `_data/navigation.yml` to add, remove, or reorder top-menu links.
 
 Edit `_pages/about.md` for the front page bio, research interests, and featured current project.
 
-## CV page
+## CV PDF
 
-Edit `_pages/cv.md` for the web CV. The current downloadable PDF is `files/CV_Shuhan Zheng.pdf`; use links like `[Download my CV](/files/CV_Shuhan%20Zheng.pdf)` in `_pages/about.md` and `_pages/cv.md`.
+Replace `files/CV_Shuhan Zheng.pdf` to update the CV; there is no separate web CV to maintain. The header and home page link directly to the PDF. If you change its filename, update `_data/navigation.yml`, `_pages/about.md`, and `_pages/cv-redirect.html` (which forwards old CV and resume URLs to the PDF). Encode spaces in URLs as `%20`.
 
 ## Projects
 

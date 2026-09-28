@@ -11,8 +11,7 @@ Use `CONTENT_GUIDE.md` for where to add future material.
 Common updates:
 
 * Edit `_pages/about.md` for the home page.
-* Edit `_pages/cv.md` for the web CV.
-* Add or replace `files/CV_Shuhan Zheng.pdf` when a downloadable CV should be published.
+* Replace `files/CV_Shuhan Zheng.pdf` to update the CV. The header and home page link directly to this PDF.
 * Add project pages under `_portfolio/`.
 * Edit `_data/navigation.yml` to change the header menu.
 * Edit `_config.yml` for sidebar contact details and site metadata.
