@@ -16,7 +16,7 @@ Edit `_pages/about.md` for the front page bio, research interests, and featured 
 
 ## CV page
 
-Edit `_pages/cv.md` for the web CV. To add a downloadable PDF, place `CV_Eng.pdf` in `files/` and add links like `[Download my CV](/files/CV_Eng.pdf)` in `_pages/about.md` and `_pages/cv.md`.
+Edit `_pages/cv.md` for the web CV. The current downloadable PDF is `files/CV_Shuhan Zheng.pdf`; use links like `[Download my CV](/files/CV_Shuhan%20Zheng.pdf)` in `_pages/about.md` and `_pages/cv.md`.
 
 ## Projects
 

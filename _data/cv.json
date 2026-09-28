@@ -115,9 +115,9 @@
   ],
   "portfolio": [
     {
-      "name": "AMAT - Agentic Mission Analysis Toolbox",
+      "name": "GFDL - General Flight Dynamics Library",
       "category": "Independent Software Project",
-      "url": "https://github.com/ThisisShoo/AMAT",
+      "url": "https://github.com/ThisisShoo/GFDL",
       "summary": "AI harness and toolbox for reliable application in spaceflight mission design, converting user intent into mission-ready spacecraft flight plans with interactive visualization for human-in-the-loop verification and validation."
     },
     {

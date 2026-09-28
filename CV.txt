@@ -47,7 +47,7 @@ OPS & Safety Operator 2026Launch Canada
 •Responsible for assisting the launch OPS and Safety team, enforcing launch pad clearance and compliance to launch safety
 regulations.
 Projects
-AMAT - Agentic Mission Analysis Toolbox
+GFDL - General Flight Dynamics Library
 Independent Software Project (Link: GitHub)
 •AI harness and toolbox for reliable application in spaceflight mission design.
 •End-to-end solution to convert user intent into real, mission-ready spacecraft flight plans, with interactive visualization capabilities

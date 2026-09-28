@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Download my CV as a PDF](/files/CV_Eng.pdf)
+[Download my CV as a PDF](/files/CV_Shuhan%20Zheng.pdf)
 
 Summary
 ======
@@ -45,8 +45,8 @@ Experience
 Projects
 ======
 
-* **AMAT - Agentic Mission Analysis Toolbox**  
-  Independent software project | [GitHub](https://github.com/ThisisShoo/AMAT)
+* **GFDL - General Flight Dynamics Library**  
+  Independent software project | [GitHub](https://github.com/ThisisShoo/GFDL)
   * AI harness and toolbox for reliable application in spaceflight mission design.
   * End-to-end solution to convert user intent into real, mission-ready spacecraft flight plans, with interactive visualization capabilities for human-in-the-loop verification and validation.
   * Compatible with a range of missions, from LEO to cislunar and beyond.
