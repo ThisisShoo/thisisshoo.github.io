@@ -1,0 +1,94 @@
+﻿{
+    "width":  12192000,
+    "height":  6858000,
+    "slides":  [
+                   {
+                       "animations":  [
+
+                                      ],
+                       "text":  "0 1 Advanced Attitude Sensors for Satellite Celestial Navigation Presenter: Shuhan Zheng",
+                       "image":  "slide-1.png"
+                   },
+                   {
+                       "animations":  [
+
+                                      ],
+                       "text":  "0 2 Celestial Navigation Used by satellites Attitude accuracy: a few arcseconds Sensor: modern camera Star Tracker User: 18th century sailors Positioning accuracy: approx. 1 nautical mile Sensor: human eye",
+                       "image":  "slide-2.png"
+                   },
+                   {
+                       "animations":  [
+                                          {
+                                              "y":  31.46395450568679,
+                                              "width":  44.749622703412072,
+                                              "x":  51.952058727034121,
+                                              "height":  52.90399533391659,
+                                              "src":  "image3.gif"
+                                          }
+                                      ],
+                       "text":  "0 3 Conventional star trackers have a limit Deployer Max. rate (deg/s) Nanoracks  (ISS) 10 Exopod (SpaceX Rideshare) 17.5 Deployers induce  tumble  Model Manufacturer Max. rate (deg/s) ST-HP Rocket Lab 3 Standard NST Blue Canyon 2 SASC StarSpec 1 S tar trackers struggle to keep up",
+                       "image":  "slide-3.png"
+                   },
+                   {
+                       "animations":  [
+                                          {
+                                              "y":  20.908763487897346,
+                                              "width":  32.514058398950134,
+                                              "x":  0.82468011811023623,
+                                              "height":  65.028113152522607,
+                                              "src":  "image4.gif"
+                                          },
+                                          {
+                                              "y":  20.888349372995041,
+                                              "width":  32.275574146981626,
+                                              "x":  34.028904199475065,
+                                              "height":  64.551151939340912,
+                                              "src":  "image5.gif"
+                                          },
+                                          {
+                                              "y":  21.494765237678624,
+                                              "width":  32.222900262467192,
+                                              "x":  66.994644028871392,
+                                              "height":  73.396602508019825,
+                                              "src":  "image6.gif"
+                                          }
+                                      ],
+                       "text":  "0 4 BEFORE / AFTER High Dynamic Star Tracker (HDST)",
+                       "image":  "slide-4.png"
+                   },
+                   {
+                       "animations":  [
+                                          {
+                                              "y":  20.509623797025373,
+                                              "width":  30.369488188976376,
+                                              "x":  64.505511811023624,
+                                              "height":  73.392927967337414,
+                                              "src":  "image7.gif"
+                                          }
+                                      ],
+                       "text":  "0 5 HDST as a Space Domain Awareness (SDA) sensor Camera captures illuminated space objects Detect candidates of moving objects Line-of-sight observations Report observations for orbit analysis 1 2 3 4",
+                       "image":  "slide-5.png"
+                   },
+                   {
+                       "animations":  [
+
+                                      ],
+                       "text":  "06 From software to space SOFTWARE HARDWARE Embedded development Optics Electrical Structure … ENVIRO TESTING Physical simulator Thermal vacuum Stratospheric flight … ORBIT Accumulate flight heritage Implement features Test in simulation Run with real data Feature complete In Progress",
+                       "image":  "slide-6.png"
+                   },
+                   {
+                       "animations":  [
+
+                                      ],
+                       "text":  "07 Let\u0027s build what comes next. Seeking cofounders: FPGA \u0026 Embedded Systems • Spacecraft Engineering • Business Development Shuhan Zheng UTIAS  M.Eng  in Aerospace Email: shuhan.zheng@mail.utoronto.ca Cell: (+1) 438-495-6697",
+                       "image":  "slide-7.png"
+                   },
+                   {
+                       "animations":  [
+
+                                      ],
+                       "text":  "08 Q\u0026A",
+                       "image":  "slide-8.png"
+                   }
+               ]
+}

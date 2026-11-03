@@ -18,7 +18,11 @@ Edit `_pages/about.md` for the front page bio, research interests, and featured 
 
 Replace `files/CV_Shuhan Zheng.pdf` to update the CV; there is no separate web CV to maintain. The header and home page link directly to the PDF. If you change its filename, update `_data/navigation.yml`, `_pages/about.md`, and `_pages/cv-redirect.html` (which forwards old CV and resume URLs to the PDF). Encode spaces in URLs as `%20`.
 
-## Projects
+## Private-link pitch presentation
+
+The presentation at `/idea-market-nov06` is intentionally absent from menus, project lists, and sitemaps. It is public to anyone who knows the URL; `noindex` is not access control. Replace `files/Pitch final.pptx`, then run `powershell -ExecutionPolicy Bypass -File scripts/export-pitch.ps1` on Windows with PowerPoint installed to refresh the slide images, original GIFs, and slide manifest. Commit the generated `assets/projects/hdst-pitch/` files along with the presentation. GIF playback is preserved; PowerPoint slide transitions and object entrance animations are not reproduced.
+
+## Project entries
 
 Add one Markdown file per project in `_portfolio/`. Use `_portfolio/portfolio-1.md` as the model:
 

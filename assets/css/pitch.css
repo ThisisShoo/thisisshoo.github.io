@@ -1,0 +1,25 @@
+@font-face { font-family: 'Pitch Icons'; src: url('../webfonts/fa-solid-900.woff2') format('woff2'); font-weight: 900; font-display: block; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f3f4f5; color: #202830; font-family: Arial, sans-serif; }
+.pitch-page { max-width: 1280px; margin: 24px auto; padding: 0 16px; }
+h1 { font-size: 24px; line-height: 1.3; margin: 0 0 16px; }
+button, select { font: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible, select:focus-visible { outline: 3px solid #48d4d5; outline-offset: 2px; }
+.fas { font-family: 'Pitch Icons'; font-weight: 900; font-style: normal; }
+.fa-chevron-left::before { content: '\f053'; }
+.fa-chevron-right::before { content: '\f054'; }
+.fa-expand::before { content: '\f065'; }
+.fa-download::before { content: '\f019'; }
+#pitch-viewer { width: 100%; background: #090d12; color: #fff; }
+.pitch-stage { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; }
+.pitch-stage img { display: block; margin: 0; border-radius: 0; }
+.pitch-background { width: 100%; height: 100%; }
+.pitch-animation { position: absolute; max-width: none; }
+.pitch-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; padding: 10px; }
+.pitch-controls button, .pitch-controls a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 1px solid #68717b; border-radius: 4px; background: #202830; color: #fff; text-decoration: none; }
+.pitch-controls select { width: 120px; height: 40px; color: #fff; background: #202830; border: 1px solid #68717b; }
+.pitch-controls button:disabled { opacity: .35; cursor: default; }
+#pitch-status { margin: 0; padding: 0 12px 8px; font-size: 14px; text-align: center; }
+#pitch-status:empty { display: none; }
+#pitch-viewer:fullscreen { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
+#pitch-viewer:fullscreen .pitch-stage { flex: none; width: min(100vw, calc((100dvh - 100px) * 16 / 9)); }
